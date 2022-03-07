@@ -3,11 +3,12 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 font-family: 'poppins', sans-serif;
+background-color: rgba(171, 161, 201, 0.836);
 }
 
 .header{
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),
-    url('bg2.jpg');
+    url('pics/bg2.jpg');
     min-height:100vh;
     width:100%;
     background-position:center;
@@ -72,5 +73,52 @@ nav ul li:hover::after{
 @media (max-width: 700px){
     .text-box h1{
         font-size:25px;
+    }
+}
+
+/*-- Frangrance Free*/
+
+.free{
+    width:80%;
+    margin:auto;
+    padding: top 100px;
+    text-align: center;
+}
+.free h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.free p{
+    color:white;
+    font-size: 14px;
+    padding:20px;
+}
+
+.free-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between;
+}
+.free-col{
+    background-color:rgb(235, 215, 250);
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-basis: 31%;
+    padding: 15px 10px;
+    transition: 0.5s;
+}
+.free h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+.free-col:hover{
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width:700px){
+    .free-row{
+        flex-direction:column;
     }
 }
