@@ -19,11 +19,13 @@ body {
   width: 70px;
   padding-left: 1rem;
 }
+
 nav {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
 }
 nav ul {
   display: flex;
@@ -49,6 +51,40 @@ nav ul li::after {
   transition: 0.5s;
 }
 nav ul li:hover::after {
+  width: 100%;
+}
+
+.home nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home nav ul {
+  display: flex;
+}
+.home nav ul li {
+  padding-right: 4em;
+  list-style: none;
+  display: inline-block;
+}
+
+.home nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.home nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.home nav ul li:hover::after {
   width: 100%;
 }
 .text-box {
@@ -282,4 +318,44 @@ footer ul li {
   font-size: 14px;
   text-align: center;
   line-height: -100px;
+}
+
+/*tools*/
+
+.tool {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.tool p {
+  color: rgb(53, 30, 30);
+  font-size: 14px;
+}
+
+.tool-row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.tool-col {
+  /* background-color: rgb(235, 215, 250); */
+  box-sizing: border-box;
+  border-radius: 10px;
+  flex-basis: 25%;
+  padding: 15px 10px;
+  transition: 0.5s;
+}
+.tool-col img {
+  width: 100%;
+  border-radius: 10px;
+  height: 230px;
+}
+.tool h4 {
+  text-align: center;
+}
+
+.tool-col:hover {
+  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2);
 }
