@@ -59,6 +59,7 @@ nav ul li:hover::after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: unset;
 }
 .home nav ul {
   display: flex;
