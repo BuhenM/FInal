@@ -299,7 +299,7 @@ nav ul li:hover::after {
 footer {
   width: 100%;
   display: flex;
-  background-color:black;
+  background-color: black;
   justify-content: space-between;
   padding: 1px;
   justify-content: center;
