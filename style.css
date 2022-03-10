@@ -118,7 +118,7 @@ nav ul li:hover::after {
   padding-top: 100px;
   text-align: center;
 }
-.free h1 {
+.free h4 {
   font-size: 40px;
   margin-bottom: 0px;
 }
@@ -141,7 +141,7 @@ nav ul li:hover::after {
   padding: 15px 10px;
   transition: 0.5s;
 }
-.free h3 {
+.free h2 {
   text-align: center;
 }
 
@@ -163,7 +163,7 @@ nav ul li:hover::after {
   padding-top: 100px;
   text-align: center;
 }
-.best h1 {
+.best h4 {
   font-size: 40px;
   margin-bottom: auto;
 }
@@ -198,7 +198,7 @@ nav ul li:hover::after {
   padding-top: 100px;
   text-align: center;
 }
-.shop h1 {
+.shop h4 {
   font-size: 40px;
   margin-bottom: auto;
 }
@@ -225,7 +225,7 @@ nav ul li:hover::after {
   width: 100%;
   border-radius: 10px;
 }
-.shop h4 {
+.shop h3 {
   text-align: center;
 }
 
@@ -242,7 +242,7 @@ nav ul li:hover::after {
   text-align: center;
   padding-bottom: 10rem;
 }
-.yes h1 {
+.yes h4 {
   font-size: 40px;
   margin-bottom: auto;
 }
@@ -272,14 +272,14 @@ nav ul li:hover::after {
   margin-left: 5px;
   margin-right: 20px;
 }
-.yes h3 {
+.yes h2 {
   text-align: left;
   margin-bottom: auto;
   margin-top: auto;
 }
 
 .comment p {
-  padding-top: auto;
+  padding-top: 0;
   quotes: '"' '"' "'" "'";
 }
 
@@ -303,10 +303,9 @@ footer {
   justify-content: space-between;
   padding: 1px;
   justify-content: center;
-}
-footer {
   display: flex;
 }
+
 footer ul li {
   display: inline-block;
   list-style: none;
@@ -314,12 +313,12 @@ footer ul li {
   align-items: center;
   color: #fff;
   font-size: 25px;
-  vertical-align: text-top;
+  vertical-align: middle;
 }
 
 footer ul li img {
   height: 50px;
-  border-radius:60px;
+  border-radius: 60px;
   padding-top: 10px;
 }
 /*tools*/
@@ -354,7 +353,7 @@ footer ul li img {
   border-radius: 10px;
   height: 230px;
 }
-.tool h4 {
+.tool h3 {
   text-align: center;
 }
 
